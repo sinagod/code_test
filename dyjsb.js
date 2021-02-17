@@ -25,11 +25,11 @@ https://api.-normal-lite-act-.*.amemv.com/luckycat/aweme/v1/task/done/read? url 
 https://api.-normal-lite-act-.*.amemv.com/luckycat/aweme/v1/task/walk/step_submit? - script-request-header https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js
 
 #loon
-http-request ^https://api5-normal-c-\w+.amemv.com/luckycat/aweme/v1/task/sign_in/detail? script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js, requires-body=true, timeout=10, tag=抖音极速版sign
+http-request ^https://api5-normal-c-\w+.amemv.com/luckycat/aweme/v1/task/sign_in/detail? script-path=https://raw.githubusercontent.com/sinagod/code_test/main/dyjsb.js, requires-body=true, timeout=10, tag=抖音极速版sign
 
-http-request ^https://api5-normal-c-\w+.amemv.com/luckycat/aweme/v1/task/done/read? script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js, requires-body=true, timeout=10, tag=抖音极速版read
+http-request ^https://api5-normal-c-\w+.amemv.com/luckycat/aweme/v1/task/done/read? script-path=https://raw.githubusercontent.com/sinagod/code_test/main/dyjsb.js, requires-body=true, timeout=10, tag=抖音极速版read
 
-http-request ^https://api5-normal-c-\w+.amemv.com/luckycat/aweme/v1/task/walk/step_submit? script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js, requires-body=true, timeout=10, tag=抖音极速版step
+http-request ^https://api5-normal-c-\w+.amemv.com/luckycat/aweme/v1/task/walk/step_submit? script-path=https://raw.githubusercontent.com/sinagod/code_test/main/dyjsb.js, requires-body=true, timeout=10, tag=抖音极速版step
 
 #surge
 dyjsbsign = type=http-request,pattern=^https://api.-normal-lite-act-.*.amemv.com/luckycat/aweme/v1/task/sign_in/detail?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js,script-update-interval=0
